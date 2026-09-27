@@ -2,7 +2,7 @@
 
 **Evidencia:** GA7-220501096-AA5-EV01 – Diseño y desarrollo de servicios web – caso
 
-**Aprendiz:** Daniela Rojas
+**Aprendiz:** Daniela Rojas, Luis Fernanda y Luna Montealegre
 
 **Tecnologías:** Node.js, Express, Git
 
