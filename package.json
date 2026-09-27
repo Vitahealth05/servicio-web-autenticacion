@@ -7,7 +7,7 @@
     "start": "node src/app.js",
     "dev": "node --watch src/app.js"
   },
-  "author": "Daiela Rojas",
+  "author": "Daniela Rojas",
   "license": "MIT",
   "dependencies": {
     "express": "^4.21.2"
