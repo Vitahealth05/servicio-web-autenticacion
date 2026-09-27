@@ -2,7 +2,7 @@
 
 **Evidencia:** GA7-220501096-AA5-EV01 – Diseño y desarrollo de servicios web – caso
 
-**Aprendiz:** Daniela Rojas, Luis Fernanda y Luna Montealegre
+**Aprendiz:** Daniela Rojas, Luisa Fernanda y Luna Montealegre
 
 **Tecnologías:** Node.js, Express, Git
 
@@ -18,8 +18,8 @@ Las contraseñas se guardan cifradas (algoritmo *scrypt* con sal aleatoria) en `
 | Método | Endpoint        | Descripción                  | Cuerpo (JSON)                                   |
 |--------|-----------------|------------------------------|-------------------------------------------------|
 | GET    | `/`             | Verifica que el servicio esté activo | —                                       |
-| POST   | `/api/registro` | Registra un usuario nuevo    | `{ "usuario": "daniela", "contrasena": "Clave123" }` |
-| POST   | `/api/login`    | Inicia sesión                | `{ "usuario": "daniela", "contrasena": "Clave123" }` |
+| POST   | `/api/registro` | Registra un usuario nuevo    | `{ "usuario": "daniela,luisa,luna", "contrasena": "Clave123" }` |
+| POST   | `/api/login`    | Inicia sesión                | `{ "usuario": "daniela,luisa,luna", "contrasena": "Clave123" }` |
 
 ### Respuestas
 
