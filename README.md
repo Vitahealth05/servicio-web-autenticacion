@@ -1,7 +1,9 @@
 # Servicio web de autenticación (Registro e Inicio de sesión)
 
 **Evidencia:** GA7-220501096-AA5-EV01 – Diseño y desarrollo de servicios web – caso
-**Aprendiz:** Daiela Rojas
+
+**Aprendiz:** Daniela Rojas
+
 **Tecnologías:** Node.js, Express, Git
 
 ## 1. Descripción
@@ -16,8 +18,8 @@ Las contraseñas se guardan cifradas (algoritmo *scrypt* con sal aleatoria) en `
 | Método | Endpoint        | Descripción                  | Cuerpo (JSON)                                   |
 |--------|-----------------|------------------------------|-------------------------------------------------|
 | GET    | `/`             | Verifica que el servicio esté activo | —                                       |
-| POST   | `/api/registro` | Registra un usuario nuevo    | `{ "usuario": "daiela", "contrasena": "Clave123" }` |
-| POST   | `/api/login`    | Inicia sesión                | `{ "usuario": "daiela", "contrasena": "Clave123" }` |
+| POST   | `/api/registro` | Registra un usuario nuevo    | `{ "usuario": "daniela", "contrasena": "Clave123" }` |
+| POST   | `/api/login`    | Inicia sesión                | `{ "usuario": "daniela", "contrasena": "Clave123" }` |
 
 ### Respuestas
 
