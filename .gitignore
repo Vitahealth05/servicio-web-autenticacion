@@ -1,0 +1,4 @@
+# Dependencias instaladas (se recuperan con "npm install")
+node_modules/
+# Base de datos local de usuarios (se genera al ejecutar)
+src/data/usuarios.json

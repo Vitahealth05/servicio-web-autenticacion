@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "Servicio web autenticación - AA5-EV01",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [{ "key": "base", "value": "http://localhost:3000" }],
+  "item": [
+    { "name": "1. Estado del servicio", "request": { "method": "GET", "url": "{{base}}/" } },
+    { "name": "2. Registro de usuario", "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }],
+      "body": { "mode": "raw", "raw": "{\n  \"usuario\": \"daiela\",\n  \"contrasena\": \"Clave123\"\n}" }, "url": "{{base}}/api/registro" } },
+    { "name": "3. Login correcto", "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }],
+      "body": { "mode": "raw", "raw": "{\n  \"usuario\": \"daiela\",\n  \"contrasena\": \"Clave123\"\n}" }, "url": "{{base}}/api/login" } },
+    { "name": "4. Login incorrecto", "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }],
+      "body": { "mode": "raw", "raw": "{\n  \"usuario\": \"daiela\",\n  \"contrasena\": \"incorrecta\"\n}" }, "url": "{{base}}/api/login" } }
+  ]
+}
